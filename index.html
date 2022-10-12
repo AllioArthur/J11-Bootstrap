@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- pas de responsive design possible avec bootsrap sans la balise ci-dessous \/ -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- liens boostrap css : ON MET TOUJOURS LE BOOTSRAP AVANT LE MAIN -->
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/css/main.css" rel="stylesheet">
+
+    <title>Boostrap-Exercice1</title>
+</head>
+<body>
+
+    <h1>Les <strong>Colonnes</strong> dans Boostrap</h1>
+
+    <!-- Exercice 1 -->
+    <h2>Exercice 1</h2>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-4 col-xl text-uppercase fw-bold">salut</div>
+            <div class="col-md-6 col-lg-4 col-xl">2</div>
+            <div class="col-md-6 col-lg-4 col-xl">3</div>
+            <div class="col-md-6 col-lg-4 col-xl">4</div>
+            <div class="col-md-6 col-lg-4 col-xl">5</div>
+        </div>
+    </div>
+
+    <!-- Exercice 2 -->
+    <h2>Exercice 2</h2>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="w-100">1</div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-sm-12 col-md-6 col-xl-4">2</div>
+            <div class="col-sm-12 col-md-6 col-xl-4">3</div>
+            <div class="col-sm-12 col-md-6 col-xl-4">4</div>
+            <div class="col-sm-12 col-md-6 col-xl-4">5</div>
+            <div class="col-sm-12 col-md-6 col-xl-4">6</div>
+            <div class="col-sm-12 col-md-6 col-xl-4">7</div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-sm-12 col-md-12 col-xl-6">8</div>
+            <div class="col-sm-12 col-md-12 col-xl-6">9</div>
+        </div>
+    </div>
+
+    <!-- Exercice 3 -->
+    <h2>Exercice 3</h2>
+    <div class="container">
+        <div class="row justify-content-start">
+            <div class="col-6">col-6</div>
+            <div class="col-2 offset-1">col-2</div>
+            <div class="col-1 offset-1">col-1</div>
+        </div>
+        <div class="row justify-content-start">
+            <div class="col-3">col-3</div>
+            <div class="col-1 offset-1">col-1</div>
+            <div class="col-6 offset-1">col-6</div>
+        </div>
+        <div class="row justify-content-start">
+            <div class="col-6">col-6</div>
+            <div class="col-3 offset-1">col-3</div>
+            <div class="col-1 offset-1">col-1</div>
+        </div>
+        <div class="row justify-content-start">
+            <div class="col-1">col-1</div>
+            <div class="col-2 offset-1">col-2</div>
+            <div class="col offset-1">col</div>
+        </div>
+        <div class="row justify-content-start">
+            <div class="col-8">col-8</div>
+            <div class="col offset-1">col</div>
+        </div>
+        <div class="row justify-content-start">
+            <div class="col-1">col-1</div>
+            <div class="col-7 offset-1">col-7</div>
+            <div class="col-1 offset-1">col-1</div>
+        </div>
+        <div class="row justify-content-start">
+            <div class="col-3 offset-1">col-3</div>
+            <div class="col-2 offset-1">col-2</div>
+            <div class="col-4 offset-1">col-4</div>
+        </div>
+        <div class="row justify-content-start">
+            <div class="col-2">col-2</div>
+            <div class="col offset-1">col</div>
+            <div class="col-2 offset-1">8-2</div>
+        </div>
+    </div>
+
+    <!-- il vaut mieux commencer par les plus hautes resolutions (xl / l) et aller vers les résolutions les plus basses -->
+    <!-- les différents types de colonnes -->
+    <h2>Références</h2>
+    <div class="container">
+        <div class="row">
+            <div class="w-100">w-100</div>
+        </div>
+        <div class="row">
+            <div class="col-2">col-2</div>
+            <div class="col-2">col-2</div>
+            <div class="col-2">col-2</div>
+            <div class="col-2">col-2</div>
+            <div class="col-2">col-2</div>
+            <div class="col-2">col-2</div>
+        </div>
+        <div class="row">
+            <div class="col-3">col-3</div>
+            <div class="col-3">col-3</div>
+            <div class="col-3">col-3</div>
+            <div class="col-3">col-3</div>
+        </div>
+        <div class="row">
+            <div class="col-4">col-4</div>
+            <div class="col-4">col-4</div>
+            <div class="col-4">col-4</div>
+        </div>
+        <div class="row">
+            <div class="col-6">col-6</div>
+            <div class="col-6">col-6</div>
+        </div>
+        
+        <div class="row">
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+        </div>
+        <div class="row">
+            <div class="col-4">col-4</div>
+            <div class="col-8">col-8</div>
+        </div>
+        <!--
+        <div class="row">
+            // col-auto full buged wtf allo //
+            <div class="col-2">col-2</div>
+            <div class="col-auto">col-auto</div>
+            <div class="col-2">col-2</div>
+        </div>
+        -->
+        <div class="row justify-content-around">
+            <div class="col-2">col-2</div>
+            <div class="col-4">col-4</div>
+            <div class="col-2">col-2</div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-4 col-xl-3">1</div>
+            <div class="col-md-6 col-lg-4 col-xl-3">2</div>
+            <div class="col-md-6 col-lg-4 col-xl-3">3</div>
+            <div class="col-md-6 col-lg-4 col-xl-3">4</div>
+        </div>
+        <!-- les offset permettent de décaler les col d'une colonne /!\ le décalage ne se fait que vers la droite /!\ -->
+        <div class="row">
+            <div class="col-4 offset-1">col-4</div>
+            <div class="col-2 offset-3">col-2</div>
+            <div class="col-6 offset-2">col-6</div>
+            <div class="col-3 offset-1">col-3</div>
+        </div>
+    </div>
+    
+<!-- lien boostrap JS, elle se place avant la fermeture de la balise body -->
+<!-- si on utiise du jquery, on appelle la balise script jquery avant celle du js -->
+<script src="/assets/js/bootstrap.min.js"></script>
+</body>
+</html>

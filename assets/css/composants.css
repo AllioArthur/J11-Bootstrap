@@ -1,0 +1,26 @@
+.accordion {
+    margin-top: 5rem;
+}
+
+#myTab {
+    margin-top: 5rem;
+}
+
+.btn {
+    margin-top: 5rem;
+}
+
+.dropdown {
+    margin-top: 5rem;
+}
+
+#progression {
+    margin-top: 3rem;
+}
+
+.carousel-inner {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    max-width: 100%;
+    max-height: 600px;
+}

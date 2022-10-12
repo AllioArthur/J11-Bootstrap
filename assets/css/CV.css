@@ -1,0 +1,28 @@
+.carousel-inner {
+    margin-bottom: 5rem;
+    max-width: 100%;
+    max-height: 600px;
+}
+
+nav > img {
+    max-width: 10rem;
+    max-height: 10rem;
+}
+
+.logo {
+    width: 13rem;
+    height: 13rem;
+}
+
+.card {
+    margin: 1rem;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer {
+    background-color: rgb(185, 185, 185);
+    margin: none;
+}

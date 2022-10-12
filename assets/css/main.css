@@ -1,0 +1,118 @@
+h1 {
+    position: center;
+    text-align: center;
+    border-style: solid;
+    border-radius: 1rem 1rem 1rem 1rem;
+    font-size: 2rem;
+    width: 14rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5rem;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+ .container {
+    border-radius: 1rem 1rem 1rem 1rem;
+    background-color: rgb(216, 216, 216);
+    border-style: solid;
+    margin: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.col-1 {
+    border-style: solid;
+    border-radius: 1rem 1rem 1rem 1rem;
+    background-color: rgb(81, 158, 158);
+    text-align: center;
+}
+
+.col-2 {
+    border-style: solid;
+    border-radius: 1rem 1rem 1rem 1rem;
+    background-color: rgb(81, 158, 158);
+    text-align: center;
+}
+
+.col-3 {
+    border-style: solid;
+    border-radius: 1rem 1rem 1rem 1rem;
+    background-color: rgb(231, 139, 96);
+    text-align: center;
+}
+
+.col-4 {
+    border-style: solid;
+    border-radius: 1rem 1rem 1rem 1rem;
+    background-color: rgb(77, 165, 104);
+    text-align: center;
+}
+
+.col-6 {
+    border-style: solid;
+    border-radius: 1rem 1rem 1rem 1rem;
+    background-color: rgb(245, 193, 49);
+    text-align: center;
+}
+
+.col-7 {
+    border-style: solid;
+    border-radius: 1rem 1rem 1rem 1rem;
+    background-color: rgb(245, 193, 49);
+    text-align: center;
+}
+
+.col-8 {
+    border-style: solid;
+    border-radius: 1rem 1rem 1rem 1rem;
+    background-color: rgb(74, 148, 177);
+    text-align: center;
+}
+
+.col {
+    border-style: solid;
+    border-radius: 1rem 1rem 1rem 1rem;
+    background-color: rgb(245, 131, 216);
+    text-align: center;
+}
+
+.col-auto {
+    border-style: solid;
+    border-radius: 1rem 1rem 1rem 1rem;
+    background-color: rgb(255, 42, 131);
+    text-align: center;
+
+}
+
+.w-100 {
+    border-style: solid;
+    border-radius: 1rem 1rem 1rem 1rem;
+    background-color: rgb(241, 74, 74);
+    text-align: center;
+}
+
+.col-md-6 {
+    border-style: solid;
+    border-radius: 1rem 1rem 1rem 1rem;
+    background-color: rgb(173, 128, 245);
+    text-align: center;
+    border-color: black;
+}
+
+.col-sm-12 {
+    border-style: solid;
+    border-radius: 1rem 1rem 1rem 1rem;
+    background-color: rgb(245, 128, 128);
+    text-align: center;
+    border-color: black;
+}
